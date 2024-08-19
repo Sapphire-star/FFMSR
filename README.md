@@ -46,14 +46,8 @@ Here are some important parameters in `props/pretrain.yaml` you may need to modi
 
 3.`cluster_iters`: Maximum number of rounds of clustering, beyond which clustering will be paused if not yet completed.
 
-```bash
-python single_train.py --d=OA --p=your_pretrained_model.pth
-```
-
-You also need to modify the `index_pretrain_dataset` in `props/finetune.yaml` to the abbreviation of the first letter of the current single dataset. The `pq_data` is consistent with the `index_pretrain_dataset` in `props/pretrain.yaml`.
 ### Fine-tuning after federated pre-training
-
-Prompt finetune pre-trained recommender of "Pantry":
+Finetune pre-trained recommender of "Pantry":
 
 ```bash
 python finetune.py --d=Pantry --p=your_pretrained_model.pth
