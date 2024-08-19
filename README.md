@@ -14,7 +14,7 @@ pytorch==1.11.0
 
 ## Dataset
 
-You should download the raw Amazon dataset from [Amazon](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/) and then put them in `dataset/raw`. You can download the processed dataset we used in the paper from [百度网盘](https://pan.baidu.com/s/1_32S8znijLWVTGZIdEe8XA?pwd=fbw8).
+You should download the raw Amazon dataset from [Amazon](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/) and then put them in `dataset/raw`. You can download the processed dataset we used in the paper from [百度网盘](https://pan.baidu.com/s/1oiYE72OqPCLpaeIyL4XKNA?pwd=rbqf).
 
 
 
