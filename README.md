@@ -3,8 +3,6 @@
 >Ziang Lu, Lei Guo, Xu Yu, Zhiyong Cheng, Xiaohui Han, Lei Zhu. Federated Semantic Learning for Privacy-preserving
 Cross-domain Recommendation
 
-![](asset/PFCR.jpg)
-
 ## Requirements
 
 ```
