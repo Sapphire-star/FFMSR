@@ -1,0 +1,17 @@
+data_path: 'dataset/bert_new/'
+benchmark_filename: [train, valid, test]
+alias_of_item_id: [item_id_list]
+load_col:
+  inter: [user_id, item_id_list, item_id]
+neg_sampling: ~
+transform: ~
+
+train_stage: pretrain
+pretrain_epochs: 5
+save_step: 5
+train_batch_size: 1024
+gpu_id: 1
+max_seq_length : 50
+checkpoint_dir : 'savesOA++/GSI_kmeans'
+cluster_centroids : 120
+cluster_iters : 300

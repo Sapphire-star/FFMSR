@@ -1,0 +1,17 @@
+data_path: 'dataset/bert_new/'
+benchmark_filename: [train, valid, test]
+alias_of_item_id: [item_id_list]
+load_col:
+  inter: [user_id, item_id_list, item_id]
+neg_sampling: ~
+transform: ~
+
+topk: [10, 50]
+metrics: [RECALL, NDCG]
+valid_metric: RECALL@10
+eval_batch_size: 1024
+stopping_step: 10
+train_batch_size: 1024
+gpu_id : 0
+max_seq_length : 50
+learning_rate: 0.001
